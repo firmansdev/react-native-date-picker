@@ -5,6 +5,7 @@ def safeExtGet(prop, fallback) {
 }
 
 android {
+    namespace "com.henninghall.date_picker"
     compileSdkVersion safeExtGet('compileSdkVersion', 25)
     buildToolsVersion safeExtGet('buildToolsVersion', "25.0.3")
 
